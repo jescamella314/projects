@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav id="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="survey.html">Survey</a></li>
+            </ul>
+        </nav>
+        <button id="theme-toggle">Dark Mode</button>
+    </header>
+
+    <main>
+        <section class="portfolio">
+            <h1>My Projects</h1>
+            
+            <div class="three-column">
+                <article class="project-card" id="project1">
+                    <img src="images/skin.jpeg" alt="Natural glow skincare">
+                    <h3>Natural Glow skincare line launch</h3>
+                    <p class="project-desc">Developed and launched a new skincare line made from organic ingredients targeting sensitive skin..</p>
+                    <button class="details-btn" onclick="toggleDetails('details1')">View Details</button>
+                    <div class="project-details" id="details1">
+                        <p>Features include user authentication, product search, and payment integration.</p>
+                        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Project demo" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </article>
+
+                <article class="project-card" id="project2">
+                    <img src="images/redesign.jpeg" alt="Website Redesign for mobile users">
+                    <h3>Website Redesign for mobile users</h3>
+                    <p class="project-desc">Rebuilt the company’s website to be fully responsive for mobile shopping.  </p>
+                    <button class="details-btn" onclick="toggleDetails('details2')">View Details</button>
+                    <div class="project-details" id="details2">
+                        <p>Tools Used are HTML5, CSS3, JavaScript and Bootstrap.</p>
+                  
+                    </div>
+                </article>
+
+                <article class="project-card" id="project3">
+                    <img src="images/customer.jpeg "alt ="Customer Review Intergration system">
+                    <h3>Customer Review Intergration system</h3>
+                    <p class="project-desc">Built a feature that allows customers to leave product ratings and reviews.</p>
+                    <button class="details-btn" onclick="toggleDetails('details3')">View Details</button>
+                    <div class="project-details" id="details3">
+                        <p> Tools Used are JavaScript, JSON, backend integration.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p> &copy; Jesca Mella 2023. All rights reserved.</p>
+    </footer>>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

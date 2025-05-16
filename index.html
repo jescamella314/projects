@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional portfolio showcasing my web development projects and skills">
+    <meta name="keywords" content="web development, portfolio, HTML, CSS, JavaScript">
+    <meta name="author" content="Jesca Mella">
+    <title>HomePage</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav id="main-nav">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="survey.html">Survey</a></li>
+            </ul>
+        </nav>
+        <button id="theme-toggle">Dark Mode</button>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1 id="greeting">Welcome to My Portfolio</h1>
+            <p>Hello! I'm Jesca Mella, a passionate and creative web developer with a strong foundation in front-end and back-end development. I specialize in building responsive, user-friendly websites and web applications that combine functionality with clean, modern design. With knowledge of HTML, CSS, JavaScript, and experience working with various frameworks and tools.</p><br>
+
+            <p>This portfolio showcases a collection of my projects that reflect my technical skills, attention to detail, and commitment to continuous learning.</p>
+        </section>
+
+        <section class="quick-links">
+            <h2>Quick Links</h2>
+            <div class="links-container">
+                <a href="portfolio.html" class="link-card">
+                    <h3>My Projects</h3>
+                    <p>View my latest work</p>
+                </a>
+                <a href="contact.html" class="link-card">
+                    <h3>Get in Touch</h3>
+                    <p>Let's work together</p>
+                </a>
+            </div>
+        </section>
+
+        <section class="featured">
+            <h2>Featured Project</h2>
+            <div class="project-highlight">
+                <img src="images/redesign.jpeg" alt="Featured project screenshot" usemap="#projectmap">
+                <map name="projectmap">
+                    <area shape="rect" coords="0,0,200,200" href="portfolio.html#project1" alt="Project 1 Details">
+                </map>
+                <p>Check out my latest work in the <a href="portfolio.html">portfolio section</a>.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p> &copy; Jesca Mella 2023. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

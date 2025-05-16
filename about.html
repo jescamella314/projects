@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio | About Me</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav id="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="survey.html">Survey</a></li>
+            </ul>
+        </nav>
+        <button id="theme-toggle">Dark Mode</button>
+    </header>
+
+    <main>
+        <section class="about-section">
+            <div class="two-column">
+                <div class="column">
+                    <h1>About Me</h1>
+                    <p>Hello! I'm Jesca Mella, a web developer with a passion for creating beautiful, functional websites.</p>
+                    <p>I specialize in HTML, CSS, and JavaScript, with experience in modern frameworks and libraries.</p>
+                </div>
+                <div class="column">
+                    <img src="images/profile.jpeg" alt="Profile picture" width="250" height="300">
+                </div>
+            </div>
+
+            <section class="skills">
+                <h2>My Skills</h2>
+                <ul class="skills-list">
+                    <li>Frontend Development
+                        <ul>
+                            <li>HTML5 & CSS3</li>
+                            <li>JavaScript </li>
+                           
+                        </ul>
+                    </li>
+                    <li>Backend Development
+                        <ul>
+                            <li>Node.js</li>
+                            <li>Express</li>
+                            <li>PHP</li>
+                        </ul>
+                    </li>
+                    <li>Tools & Technologies
+                        <ul>
+                            <li>Git & GitHub</li>
+                            <li>VS Code</li>
+                            <li>Responsive Design</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="resume" id="resume">
+                <h2>My Resume</h2>
+                <div class="resume-content">
+                    <h3>Education</h3>
+                    <ul>
+                        <li>Bachelor's in Information System- University of Dodoma, 2023 - present</li>
+                        
+                    </ul>
+                    
+                    <h3>Experience</h3>
+                    <ul>
+                        <li>Frontend developer at Softnet (2023-Present)</li>
+                        <li>Web Development Intern at e-GA (2020-2023)</li>
+                    </ul>
+                </div>
+                <button onclick="window.print()" class="print-btn">Print Resume</button>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <p> &copy; Jesca Mella 2023. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+@media print {
+    header, footer, nav, button {
+        display: none;
+    }
+    
+    body {
+        background-color: white;
+        color: black;
+        font-size: 12pt;
+    }
+    
+    .resume-content {
+        padding: 0;
+        background-color: transparent;
+    }
+    
+    a::after {
+        content: " (" attr(href) ")";
+        font-size: 0.8em;
+        font-weight: normal;
+    }
+}
